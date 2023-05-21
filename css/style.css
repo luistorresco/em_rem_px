@@ -9,8 +9,6 @@ body {
     background: linear-gradient(to top, rgb(0, 0, 0), rgb(192, 37, 37));
     color: #fff; /* Texto blanco */
     color-scheme: light;
-
-    
 }
   
 #toggle-btn {
@@ -19,19 +17,14 @@ body {
     right: 20px;
 }
   
-
-
 .container, .container2 {
     display: flex;
     /* border: 1px solid; */
     font-size: 20px;
-    /* background-color: aqua; */ 
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
 }
-
-
 
 article {
     font-size: 1em;
@@ -61,24 +54,18 @@ p {
 aside {
     display: inline-block;
     /* border: 1px solid; */
-    height: 100px;
-    width: 342px;
+    height: 110px;
+    width: 260px;
     /* justify-content: space-between; */
     /* flex-direction: row; */
 }
 
 article.container3 {
-    width: 50em;
-    height: 20em;
+    width: 30em;
+    height: 30em;
 }
 
-.container4 {
-    width:800rem;
-    height:890rem;
+img{
+    width: auto;
+    height: 100%;
 }
-
-img {
-    width: 35%;
-    height: auto;
-}
-
