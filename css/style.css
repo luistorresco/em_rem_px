@@ -1,7 +1,25 @@
 body {
     font-size: 10px;
-    background: linear-gradient(to top, rgb(174, 126, 126), #ffffff);
+    background: linear-gradient(to top, rgb(192, 146, 146), #ffffff);
+    color: #000000; /* Texto negro por defecto */
+    color-scheme: dark;
+    transition: background-color 0.3s ease;
 }
+.dark-mode{
+    background: linear-gradient(to top, rgb(0, 0, 0), rgb(192, 37, 37));
+    color: #fff; /* Texto blanco */
+    color-scheme: light;
+
+    
+}
+  
+#toggle-btn {
+    position: fixed;  /*Posicion del bototon fija arriba a la izquierda*/
+    top: 20px;
+    right: 20px;
+}
+  
+
 
 .container, .container2 {
     display: flex;
@@ -27,7 +45,6 @@ article {
 h1 {
     font-size: 1rem;
     text-align: center;
-    color:blue;
 }
 
 footer {
